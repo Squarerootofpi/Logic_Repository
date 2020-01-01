@@ -1,0 +1,32 @@
+Propositions
+
+P: 1
+AD: God is all powerful
+ED: 
+Dependencies: 0
+
+P: 2
+AD: God created us all
+ED: 
+Dependencies: 0 1
+
+P: 3
+AD: God created us
+ED: Specifically, God created all of humankind on the earth. All religions, races, peoples, etc.
+Dependencies: 2
+
+End Propositions
+
+Axioms
+1 2
+
+End Axioms
+
+Sources
+
+1 Nephi 20:3
+Ether 12:4
+My mom told me the other day.
+http://jsearch.org
+
+End Sources

@@ -1,0 +1,18 @@
+Propositions
+
+P 0
+atomic description. This is a description that should not be negated, and simplest form. If a proposition is not atomic, it must be broken up.
+Extra user description.
+dependencies: 
+
+
+P 1
+AD: Nehor is an idiot
+Just as a note, he's a geneus, this is atest
+dependencies: 
+
+Sources
+
+Axioms
+0 1
+

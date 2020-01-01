@@ -1,0 +1,29 @@
+
+
+# this is a comment/note, but when rewritten, may or may not be included. 
+#Base it off of getlines, so we can parse sentences.
+#The organization is this: have a list of propositions, and their dependencies. 
+#Only absolute propositions for now.
+#propositionID's must be numbers.
+#P denotes the start of a proposition.
+
+Propositions
+
+P: propositionID
+AD: This is an atomic description that should not be negated, and simplest form. If a proposition is not atomic, it must be broken up.
+ED: Extra user description.
+Dependencies: propositionID1 propositionID2 propositionIDn
+
+
+
+
+
+Sources
+
+Axioms
+#these are claims that you just say are true. 
+propositionID1 propositionID2 propositionID3
+
+0 on a dependency denotes that it is dependent to axiom being true.
+
+
