@@ -64,6 +64,7 @@ public: //public stuff
 			this->adjList.insert(adj);
 		}
 	}
+	Graph() {}
 	~Graph() {}
 	//gets the postorder numbers of a depthfirst search
 	vector<size_t> getPostOrderNums() const {
@@ -79,6 +80,8 @@ public: //public stuff
 		this->postOrderNums = postOrderNums;
 		return;
 	}
+
+	//pair<bool, vector<size_t>> insert() 
 
 	string toString() const {
 		

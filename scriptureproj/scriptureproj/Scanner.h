@@ -5,10 +5,6 @@
 #include<set>
 
 using std::getline;
-enum States
-{
-	PROPOSITION,PROP,AXIOMS,AXI,SOURCES,SOURCE
-};
 
 class Scanner
 {
@@ -22,13 +18,35 @@ public:
 	Scanner() {}
 
 	~Scanner() {}
-	vector<Proposition> giveVector()
+	vector<Proposition> getProps()
 	{
 		return thePropositions;
 	}
+	std::set<size_t> getAxioms() {
+		return axioms;
+	}
+	vector<string> getSources() {
+		return sources;
+	}
+	std::set<size_t> getIDs() {
+		return IDs;
+	}
+	vector<std::set<size_t>> getAdjList() {
+		return adjList;
+	}
+	void dropData() {
+		thePropositions = {};
+		axioms = {};
+		sources = {};
+		IDs = {};
+		adjList = {};
+		return;
+	}
+
 	//The main file for scanner, bulk is in this.
 	void scan(char* argv[])
 	{
+		dropData();
 		ifstream inputFile;
 		inputFile.open(argv[1]);
 		if (!inputFile)

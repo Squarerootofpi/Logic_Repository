@@ -115,9 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Database.h" />
     <ClInclude Include="DatalogProgram.h" />
     <ClInclude Include="Graph.h" />
+    <ClInclude Include="Interpreter.h" />
+    <ClInclude Include="LogicTree.h" />
     <ClInclude Include="Proposition.h" />
+    <ClInclude Include="Relation.h" />
     <ClInclude Include="Scanner.h" />
     <ClInclude Include="Token.h" />
   </ItemGroup>
